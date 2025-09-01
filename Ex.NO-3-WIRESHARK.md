@@ -24,7 +24,8 @@
  <br>
    <br>
   <p align="center">
-![WhatsApp Image 2025-09-01 at 15 29 35_0f7e656b](https://github.com/user-attachments/assets/2849838d-69a4-4be8-93c6-c153d08eb418)
+<img width="1909" height="1071" alt="Screenshot 2025-09-01 152401" src="https://github.com/user-attachments/assets/9b04c372-6ce8-4810-8d24-dffd39353696" />
+
 
 
 
