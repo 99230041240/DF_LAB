@@ -1,150 +1,103 @@
-<table style="width:100%; font-family: Verdana, Tahoma; border: none; border-collapse: collapse;">
+                                      Ex.No 5 Use Autopsy to create a case and import evidence
+## Description
+Autopsy is an open-source digital forensics platform used for analyzing and extracting data from digital devices. Here's a step-by-step process on how to use Autopsy for a basic forensic investigation:
 
-<!-- University Logo -->
-<tr>
-<td colspan="3" style="text-align: center; vertical-align: middle; padding: 10px 0;">
-<img src="https://www.kalasalingam.ac.in/wp-content/uploads/2022/02/Logo.png" 
-alt="Kalasalingam Academy of Research & Education" 
-style="height:80px; display:block; margin: 0 auto;">
-</td>
-</tr>
+## 1. Installation
+- Download and Install: Autopsy can be downloaded from the official website. Follow the installation instructions based on your operating system (Windows, Linux, or macOS).
 
-<!-- Department and School -->
-<tr>
-<td colspan="3" style="text-align: center; font-size: 18px; font-weight: bold; padding: 5px 0;">
-Department of Computer Science Engineering | School of Computing
-</td>
-</tr>
+### 2. Starting a New Case
+- Open Autopsy: Launch the application after installation.
+- <img width="989" height="550" alt="Screenshot 2025-10-26 210447" src="https://github.com/user-attachments/assets/4614d52d-b02b-4a7b-9af8-52c4b96326ac" />
 
-<!-- Course and Section -->
-<tr>
-<td colspan="3" style="text-align: center; font-size: 16px; padding: 2px 0;">
-Digital Forensics - 213CSE4307 | Lab Record | Section: 23S19 - Cybersecurity
-</td>
-</tr>
+- Create a New Case:
+     <br>
+  -  *Click on New Case.*
+    
+    <br>
+ <img width="1212" height="682" alt="Screenshot 2025-10-26 210641" src="https://github.com/user-attachments/assets/fbcfd3e7-bed4-4dcf-8fa1-a61c0dbf444b" />
 
-<!-- Experiment Info -->
-<tr>
-<td style="width:33%; text-align: left; padding-top: 10px;"><strong>Experiment No:</strong> 05</td>
-<td style="width:34%; text-align: center; padding-top: 10px;">
-<h3 style="margin: 0; font-family: Verdana, Tahoma;">Use Autopsy to Create a Case and Import Evidence</h3>
-</td>
-<td style="width:33%; text-align: right; padding-top: 10px;"><strong>Date:</strong> / /</td>
-</tr>
 
-</table>
+     <br>
+     
+  - Enter the case name and location where the case data will be stored.
+  - Fill in the details like the case number, examiner's name, etc., and click Next.
+    
+       <br>
+       
+     <img width="697" height="391" alt="Screenshot 2025-10-26 210807" src="https://github.com/user-attachments/assets/01740ca1-be68-4748-acbe-b898e2b69a19" />
 
-<hr style="margin:10px 0;">
+     
 
----
+### 3. Adding a Data Source
+- Choose the Type of Data Source
+- Select the Data Source
+- Configure Ingest Modules
+- Start Analysis
+ <br>
 
-##  Objective
-To learn how to use **Autopsy**, an open-source digital forensics tool, to create a case, import evidence, and analyze digital artifacts.
+<img width="1365" height="767" alt="Screenshot 2025-10-26 210953" src="https://github.com/user-attachments/assets/d24c4508-5e16-4f4e-bed9-d2f6cbb969d0" />
 
----
 
-##  Introduction
-**Autopsy** is a digital forensics platform used for investigating and analyzing data from computers and mobile devices.  
-It enables investigators to extract, review, and report on digital evidence in a structured and efficient manner.
+<br>
+ <br>
+ 
+### 4. Initial Analysis and Overview
+- Ingest Progress: As Autopsy processes the data source, you'll see the progress in the lower-left corner.
+- Explore the Resulting Artifacts:
+- Use the Tree Viewer
 
----
+<br>
+<img width="1365" height="767" alt="Screenshot 2025-10-26 211042" src="https://github.com/user-attachments/assets/4fe10b16-6cce-4f19-b768-787b343539bd" />
 
-##  Step by Step Procedure
+<br>
+<br>
 
-###  Installation
-- Download **Autopsy** from the [official website](https://www.autopsy.com/download/).  
-- Follow installation steps for your OS (Windows, Linux, or macOS).  
-- Launch the application after successful installation.
+<br>
+<br>
 
----
+  ### 5. Detailed Analysis
+  - Keyword Search:
+    - You can perform specific keyword searches using the Keyword Search module.
+    - Use pre-configured lists or enter custom keywords.
+  - File Analysis:
+    - Navigate through files and folders under the File Types or File System section.
+    - Open, view, or export files for further examination.
+  - Timeline Analysis:
+     - Use the Timeline module to visualize events based on timestamps.
+     - This can help track user activity over time.
+- Hash Analysis:
+  - Compare file hashes with known databases to identify known good or bad files.
+    <br>
+<img width="1218" height="690" alt="Screenshot 2025-10-26 213202" src="https://github.com/user-attachments/assets/2c1f7d2d-76ab-46a7-bbad-453bd5376f1a" />
 
-###  Starting a New Case
-1. Open Autopsy and click **“New Case.”**  
-2. Enter **case name** and choose the **storage location**.  
-3. Provide **case number** and **examiner details.**  
-4. Click **Next** to create the case.
 
----
+<br>
+<br>
 
-###  Adding a Data Source
-1. **Select Data Source Type:** Disk Image, Logical Files, or Local Disk.  
-2. **Add the Data Source:** Choose the file or drive to analyze.  
-3. **Configure Ingest Modules:** Enable modules such as File Type Identification, Hash Lookup, and Keyword Search.  
-4. Click **Next** to start the analysis.
+### 6. Reporting
 
----
+-Generate a Report :
+ - After analyzing the data, click on Generate Report from the toolbar.
 
-###  Initial Analysis and Overview
-- **Monitor Ingest Progress:** Displayed in the lower-left corner.  
-- **Explore Artifacts:** Use the **Tree Viewer** to review categories such as Web History, Images, and Documents.
+<p align="center">
+<img width="1212" height="685" alt="Screenshot 2025-10-26 213304" src="https://github.com/user-attachments/assets/d5708ef2-da7b-4c81-ac30-10065aff26e5" />
 
----
+</p>
 
-###  Detailed Analysis
+<p align="center">
+ 
 
-####  Keyword Search
-- Use the **Keyword Search** module to locate specific terms.  
-- Add **custom keywords** or import pre-defined lists.
 
-####  File Analysis
-- Explore files under **File Types** or **File System.**  
-- View, open, or export files for detailed examination.
+-  *Report*
 
-####  Timeline Analysis
-- Use the **Timeline module** to visualize chronological activity.  
-- Identify user actions and correlate evidence by time.
+<br>
+<img width="1365" height="767" alt="Screenshot 2025-10-26 213336" src="https://github.com/user-attachments/assets/3f290622-5caf-42af-8de3-e03025b0c0fe" />
 
-####  Hash Analysis
-- Compare file hashes against known databases (e.g., NSRL).  
-- Identify **known good** or **malicious files.**
-
----
-
-###  Reporting
-- After analysis, click **“Generate Report.”**  
-- Choose output formats such as **HTML**, **CSV**, or **XML.**  
-- Reports include:
-  - Case summary  
-  - Examiner details  
-  - Extracted artifacts and findings
-
----
-
-###  Case Closure
-1. **Close the Case** once the investigation is completed.  
-2. **Archive Evidence and Reports** following your organization’s policies.  
-3. Ensure all reports and logs are securely stored for future reference.
-
----
-
-##  Result
-Successfully created a forensic case using **Autopsy**, imported evidence, analyzed artifacts, and generated a detailed report.
-
----
-
-## Conclusion
-**Autopsy** simplifies digital investigations through its modular approach and user-friendly interface.  
-It provides a complete forensic workflow, making it a valuable tool for both academic and professional forensic analysis.
----
 
 <br>
 
-<table style="width:100%; font-family: Verdana, Tahoma; border: none; border-collapse: collapse; margin-top:20px;">
-
-<tr>
-<td style="width:50%; text-align: left; padding: 10px;">
-<strong>Student Name:</strong> Rangun Bhargav <br>
-<strong>Register No:</strong> 99230041240
-</td>
-
-<td style="width:50%; text-align: right; padding: 10px;">
-<strong>Verified by Faculty:</strong> Dr.K Venkatesh <br>
-</td>
-</tr>
-
-</table>
-
-<hr style="margin:10px 0;">
-<p style="text-align:center; font-size:12px; font-family: Verdana, Tahoma; color:gray;">
-© Department of Computer Science and Engineering | School of Computing
-</p>
+### 7. Case Closure
+- Close the Case:
+  - Once you have completed your investigation, close the case within Autopsy.
+- Archiving:
+  - Ensure all data and reports are properly archived according to your organization's policies.
